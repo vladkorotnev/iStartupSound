@@ -1,0 +1,6 @@
+A simple tweak that allows you to have a startup sound on your iOS Device.
+Place the file in /var/mobile/startup.wav.
+The file may be in mp3, wav or caf format, though it must be named "startup.wav" and reside in /var/mobile.
+A sample startup.wav is attached.
+
+~ Korotnev Vladislav
