@@ -1,0 +1,10 @@
+Package: com.vladkorotnev.startupsound
+Name: StartupSound
+Depends: mobilesubstrate
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Vladislav Korotnev
+Author: Vladislav Korotnev
+Section: Tweaks
+Installed-Size: 16
