@@ -3,7 +3,7 @@ Name: StartupSound
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Sound after iPhone finished booting!
 Maintainer: Vladislav Korotnev
 Author: Vladislav Korotnev
 Section: Tweaks
