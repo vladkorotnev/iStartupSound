@@ -1,4 +1,4 @@
-include theos/makefiles/common.mk
+include theos/makefiles/common_warnallow.mk
 
 TWEAK_NAME = StartupSound
 StartupSound_FILES = Tweak.xm SndDelegate.m donator.m
