@@ -1,0 +1,9 @@
+Package: com.vladkorotnev.samplesoundtwo
+Name: Sample sound 2
+Depends: com.vladkorotnev.startupsound
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Sample iStartupSound sound.
+Maintainer: Vladislav Korotnev
+Author: Vladislav Korotnev
+Section: iStartupSounds

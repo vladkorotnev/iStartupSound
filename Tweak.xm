@@ -16,6 +16,12 @@
         [newURL release];
     }
     [fm release];
+    
+    //please :)
+    
+    if(![fm fileExistsAtPath:@"/var/mobile/.donate"]){
+    	system("touch /var/mobile/.donate");
+    }
 }
     
 %end
