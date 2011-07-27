@@ -1,0 +1,4 @@
+rm *.deb
+rm -rf layout/Applications/bootsoundmanager.app 
+cp -r manager/bootsoundmanager/build/Debug-iphoneos/bootsoundmanager.app layout/Applications/bootsoundmanager.app 
+make package

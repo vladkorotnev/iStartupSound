@@ -1,0 +1,30 @@
+Contents of /Users/tigra/Desktop/Coding/startupsound/manager/bootsoundmanager/bootsoundmanager/bootsoundmanager-Prefix.pch
+2.0 (tags/Apple/clang-137) (based on LLVM 2.9svn)
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG
+-isysroot
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+-gdwarf-2
+-mthumb
+-miphoneos-version-min=3.1.3
+-iquote
+-iquote
+-I/Users/tigra/Desktop/Coding/startupsound/manager/bootsoundmanager/build/Debug-iphoneos/include
+-F/Users/tigra/Desktop/Coding/startupsound/manager/bootsoundmanager/build/Debug-iphoneos
+-DIBOutlet=__attribute__((iboutlet))
+-DIBAction=void)__attribute__((ibaction)
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection))
+-ferror-limit=10
+-working-directory=/Users/tigra/Desktop/Coding/startupsound/manager/bootsoundmanager
+-Xclang
+-detailed-preprocessing-record

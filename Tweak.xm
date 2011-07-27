@@ -9,8 +9,8 @@
 	//startup sound
     NSFileManager *fm=[NSFileManager defaultManager];
     SndDelegate *ololo = [SndDelegate alloc];
-    if([fm fileExistsAtPath:@"/System/Library/CoreServices/SpringBoard.app/startup.wav"]){
-        NSURL *newURL = [[NSURL alloc] initFileURLWithPath:@"/var/mobile/startup.wav"];
+    if([fm fileExistsAtPath:@"/var/mobile/Library/StartupSounds/.inuse.wav"]){
+        NSURL *newURL = [[NSURL alloc] initFileURLWithPath:@"/var/mobile/Library/StartupSounds/.inuse.wav"];
         AVAudioPlayer *player = [[AVAudioPlayer alloc]initWithContentsOfURL:newURL error:nil];
         [player prepareToPlay];
         [player setDelegate:ololo];
@@ -21,11 +21,12 @@
     
     //please :)
     
-    if(![fm fileExistsAtPath:@"/var/mobile/.donate"]){
-    	system("touch /var/mobile/.donate");
+    if(![fm fileExistsAtPath:@"/var/mobile/.msg20"]){
+    	system("touch /var/mobile/.msg20");
+    	system("rm /var/mobile/.donate");
     	Class _SBAwayController = NSClassFromString(@"SBAwayController");
 [[_SBAwayController sharedAwayController]unlockWithSound:true isAutoUnlock:true];
-    	UIAlertView *hello = [[UIAlertView alloc]initWithTitle:@"iStartupSound" message:@"Hello. \n Thanks for using iStartupSound. \n Warning: Since now startup.wav has moved to /System/Library/CoreServices/SpringBoard.app/startup.wav. \n Please move your files. \n Also, the new location for the file would allow use of startup sounds in themes. \n Thank you for using iStartupSound. \n Would you please donate me as little as $1 (you may donate more if you wish :) to keep the good software development?\n If you would like to donate, go to: \n http://vladkorotnev.github.com/donate \n\n \n P.S. A new, better successor to iStartupSound is coming. Stay tuned on twitter: \n @vladkorotnev" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    	UIAlertView *hello = [[UIAlertView alloc]initWithTitle:@"iStartupSound 2.0" message:@"Hello.\nThanks for using iStartupSound.\nWarning: Since now, iStartupSound has a sound manager. Place your files into /var/mobile/Library/StartupSounds with any name.\nThank you for using iStartupSound. \n Would you please donate me as little as $1 (you may donate more if you wish :) to keep the good software development?\nIf you would like to donate, go to:\nhttp://vladkorotnev.github.com/donate" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     	[hello show];
     	[hello release];
     }

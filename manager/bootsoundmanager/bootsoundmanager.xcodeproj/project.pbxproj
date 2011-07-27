@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826F26FF13DFE078008AFF94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826F26FE13DFE078008AFF94 /* UIKit.framework */; };
+		826F270113DFE078008AFF94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826F270013DFE078008AFF94 /* Foundation.framework */; };
+		826F270313DFE078008AFF94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826F270213DFE078008AFF94 /* CoreGraphics.framework */; };
+		826F270913DFE078008AFF94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 826F270713DFE078008AFF94 /* InfoPlist.strings */; };
+		826F270C13DFE078008AFF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 826F270B13DFE078008AFF94 /* main.m */; };
+		826F270F13DFE078008AFF94 /* bootsoundmanagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 826F270E13DFE078008AFF94 /* bootsoundmanagerAppDelegate.m */; };
+		826F271213DFE078008AFF94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826F271013DFE078008AFF94 /* MainWindow.xib */; };
+		826F271513DFE079008AFF94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826F271413DFE079008AFF94 /* MainViewController.m */; };
+		826F271713DFE079008AFF94 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826F271613DFE079008AFF94 /* MainView.xib */; };
+		826F271A13DFE079008AFF94 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826F271913DFE079008AFF94 /* FlipsideViewController.m */; };
+		826F271C13DFE079008AFF94 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826F271B13DFE079008AFF94 /* FlipsideView.xib */; };
+		82D55B4C13DFEC7600194697 /* manager-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D55B4B13DFEC7600194697 /* manager-icon.png */; };
+		82D55B4F13DFEC7B00194697 /* manager-icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D55B4E13DFEC7B00194697 /* manager-icon-retina.png */; };
+		82D55B5113DFECAA00194697 /* manager-icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D55B5013DFECAA00194697 /* manager-icon-ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		826F26FA13DFE078008AFF94 /* bootsoundmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bootsoundmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826F26FE13DFE078008AFF94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		826F270013DFE078008AFF94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		826F270213DFE078008AFF94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		826F270613DFE078008AFF94 /* bootsoundmanager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bootsoundmanager-Info.plist"; sourceTree = "<group>"; };
+		826F270813DFE078008AFF94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		826F270A13DFE078008AFF94 /* bootsoundmanager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bootsoundmanager-Prefix.pch"; sourceTree = "<group>"; };
+		826F270B13DFE078008AFF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		826F270D13DFE078008AFF94 /* bootsoundmanagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bootsoundmanagerAppDelegate.h; sourceTree = "<group>"; };
+		826F270E13DFE078008AFF94 /* bootsoundmanagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bootsoundmanagerAppDelegate.m; sourceTree = "<group>"; };
+		826F271113DFE078008AFF94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		826F271313DFE078008AFF94 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		826F271413DFE079008AFF94 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		826F271613DFE079008AFF94 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		826F271813DFE079008AFF94 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		826F271913DFE079008AFF94 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		826F271B13DFE079008AFF94 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		82D55B4B13DFEC7600194697 /* manager-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manager-icon.png"; sourceTree = "<group>"; };
+		82D55B4E13DFEC7B00194697 /* manager-icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manager-icon-retina.png"; sourceTree = "<group>"; };
+		82D55B5013DFECAA00194697 /* manager-icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manager-icon-ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826F26F713DFE078008AFF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826F26FF13DFE078008AFF94 /* UIKit.framework in Frameworks */,
+				826F270113DFE078008AFF94 /* Foundation.framework in Frameworks */,
+				826F270313DFE078008AFF94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826F26EF13DFE078008AFF94 = {
+			isa = PBXGroup;
+			children = (
+				82D55B5013DFECAA00194697 /* manager-icon-ipad.png */,
+				82D55B4E13DFEC7B00194697 /* manager-icon-retina.png */,
+				82D55B4B13DFEC7600194697 /* manager-icon.png */,
+				826F270413DFE078008AFF94 /* bootsoundmanager */,
+				826F26FD13DFE078008AFF94 /* Frameworks */,
+				826F26FB13DFE078008AFF94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826F26FB13DFE078008AFF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826F26FA13DFE078008AFF94 /* bootsoundmanager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826F26FD13DFE078008AFF94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826F26FE13DFE078008AFF94 /* UIKit.framework */,
+				826F270013DFE078008AFF94 /* Foundation.framework */,
+				826F270213DFE078008AFF94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		826F270413DFE078008AFF94 /* bootsoundmanager */ = {
+			isa = PBXGroup;
+			children = (
+				826F270D13DFE078008AFF94 /* bootsoundmanagerAppDelegate.h */,
+				826F270E13DFE078008AFF94 /* bootsoundmanagerAppDelegate.m */,
+				826F271013DFE078008AFF94 /* MainWindow.xib */,
+				826F271313DFE078008AFF94 /* MainViewController.h */,
+				826F271413DFE079008AFF94 /* MainViewController.m */,
+				826F271613DFE079008AFF94 /* MainView.xib */,
+				826F271813DFE079008AFF94 /* FlipsideViewController.h */,
+				826F271913DFE079008AFF94 /* FlipsideViewController.m */,
+				826F271B13DFE079008AFF94 /* FlipsideView.xib */,
+				826F270513DFE078008AFF94 /* Supporting Files */,
+			);
+			path = bootsoundmanager;
+			sourceTree = "<group>";
+		};
+		826F270513DFE078008AFF94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				826F270613DFE078008AFF94 /* bootsoundmanager-Info.plist */,
+				826F270713DFE078008AFF94 /* InfoPlist.strings */,
+				826F270A13DFE078008AFF94 /* bootsoundmanager-Prefix.pch */,
+				826F270B13DFE078008AFF94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826F26F913DFE078008AFF94 /* bootsoundmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826F271F13DFE079008AFF94 /* Build configuration list for PBXNativeTarget "bootsoundmanager" */;
+			buildPhases = (
+				826F26F613DFE078008AFF94 /* Sources */,
+				826F26F713DFE078008AFF94 /* Frameworks */,
+				826F26F813DFE078008AFF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bootsoundmanager;
+			productName = bootsoundmanager;
+			productReference = 826F26FA13DFE078008AFF94 /* bootsoundmanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826F26F113DFE078008AFF94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tigr@Soft";
+			};
+			buildConfigurationList = 826F26F413DFE078008AFF94 /* Build configuration list for PBXProject "bootsoundmanager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 826F26EF13DFE078008AFF94;
+			productRefGroup = 826F26FB13DFE078008AFF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826F26F913DFE078008AFF94 /* bootsoundmanager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826F26F813DFE078008AFF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826F270913DFE078008AFF94 /* InfoPlist.strings in Resources */,
+				826F271213DFE078008AFF94 /* MainWindow.xib in Resources */,
+				826F271713DFE079008AFF94 /* MainView.xib in Resources */,
+				826F271C13DFE079008AFF94 /* FlipsideView.xib in Resources */,
+				82D55B4C13DFEC7600194697 /* manager-icon.png in Resources */,
+				82D55B4F13DFEC7B00194697 /* manager-icon-retina.png in Resources */,
+				82D55B5113DFECAA00194697 /* manager-icon-ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826F26F613DFE078008AFF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826F270C13DFE078008AFF94 /* main.m in Sources */,
+				826F270F13DFE078008AFF94 /* bootsoundmanagerAppDelegate.m in Sources */,
+				826F271513DFE079008AFF94 /* MainViewController.m in Sources */,
+				826F271A13DFE079008AFF94 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		826F270713DFE078008AFF94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826F270813DFE078008AFF94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		826F271013DFE078008AFF94 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826F271113DFE078008AFF94 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826F271D13DFE079008AFF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		826F271E13DFE079008AFF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		826F272013DFE079008AFF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bootsoundmanager/bootsoundmanager-Prefix.pch";
+				INFOPLIST_FILE = "bootsoundmanager/bootsoundmanager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		826F272113DFE079008AFF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bootsoundmanager/bootsoundmanager-Prefix.pch";
+				INFOPLIST_FILE = "bootsoundmanager/bootsoundmanager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826F26F413DFE078008AFF94 /* Build configuration list for PBXProject "bootsoundmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826F271D13DFE079008AFF94 /* Debug */,
+				826F271E13DFE079008AFF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826F271F13DFE079008AFF94 /* Build configuration list for PBXNativeTarget "bootsoundmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826F272013DFE079008AFF94 /* Debug */,
+				826F272113DFE079008AFF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826F26F113DFE078008AFF94 /* Project object */;
+}
