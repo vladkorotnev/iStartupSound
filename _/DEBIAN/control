@@ -1,7 +1,7 @@
 Package: com.vladkorotnev.startupsound
 Name: StartupSound
 Depends: mobilesubstrate
-Version: 2.0.0-20
+Version: 2.0.1-1
 Architecture: iphoneos-arm
 Description: Sound after iPhone finished booting!
 Maintainer: Vladislav Korotnev
