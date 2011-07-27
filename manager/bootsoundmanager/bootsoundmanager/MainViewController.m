@@ -44,7 +44,7 @@
         ver = @"iStartupSound not found";
     }
     
-    UIAlertView *info = [[UIAlertView alloc]initWithTitle:@"iStartupSound Manager v1.0" message:[NSString stringWithFormat:@"For iStartupSound 2.0 and higher.\n%@\n\n © Vladislav Korotnev, 2011\nWebsite:\nhttp://vladkorotnev.github.com\n\nTwitter: @vladkorotnev",ver] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    UIAlertView *info = [[UIAlertView alloc]initWithTitle:@"iStartupSound Manager v1.1" message:[NSString stringWithFormat:@"For iStartupSound 2.0 and higher.\n%@\n\n © Vladislav Korotnev, 2011\nWebsite:\nhttp://vladkorotnev.github.com\n\nTwitter: @vladkorotnev",ver] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [info show];
     [info release];
     [ver release];
@@ -139,7 +139,7 @@
         [self showInfo:self];
         [fm copyItemAtPath:src toPath:@"/var/mobile/Library/StartupSounds/.inuse.wav" error:nil];
         if ([fm fileExistsAtPath:@"/var/mobile/Library/StartupSounds/.inuse.wav"]) {
-            UIAlertView *success = [[UIAlertView alloc]initWithTitle:@"Success" message:[NSString stringWithFormat:@"Successfully installed sound %@",[tableVw cellForRowAtIndexPath:indexPath].textLabel.text] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            UIAlertView *success = [[UIAlertView alloc]initWithTitle:@"Success" message:@"Successfully installed sound" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
             [success show];
             [success release];
             [tableVw deselectRowAtIndexPath:indexPath animated:true];
